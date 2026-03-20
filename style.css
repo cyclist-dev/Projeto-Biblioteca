@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Sans-Serif; 
+}
+body{
+    display: flex;
+    background-color: azure;
+    color: #333;
+    background: url('library.png') no-repeat center center fixed;
+}
+
+.sidebar{
+    wiftt: 240px;
+    height: 110vh;
+    background-color: #0f172a;
+    color: white;
+    padding: 25px;
+    position: fixed;    
+}
+
+.sidebar h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.sidebar a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    transition: 0.3s;
+    fonr-size: 16px;
+}
+
+.sidebar a:hover{
+    background: #1e293b;
+}
+
+.content{
+    margim-left: 260px;
+    padding: 40px;
+    width: 100%
+}
+
+ 
